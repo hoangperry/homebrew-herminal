@@ -2,8 +2,7 @@ cask "herminal" do
   version "0.4.2"
   sha256 "c989cf627fb6eedc37dbd688dfce85fb2eb47b3a376ba585d0b1bccdcd0864de"
 
-  url "https://github.com/hoangperry/herminal/releases/download/v#{version}/herminal-v#{version}.dmg",
-      verified: "github.com/hoangperry/herminal/"
+  url "https://github.com/hoangperry/herminal/releases/download/v#{version}/herminal-v#{version}.dmg"
   name "herminal"
   desc "Native terminal for developers living in Claude Code"
   homepage "https://github.com/hoangperry/herminal"
